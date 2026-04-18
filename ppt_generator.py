@@ -172,7 +172,7 @@ def generate_pptx(input_data: str, is_image: bool, output_name: str, slide_count
         
         # Rasm qo'yish (DuckDuckGo orqali)
         has_img = False
-        keyword = info.get("image_keyword")
+        keyword = info.get("image_search_query")
         if keyword:
             img_path = f"_ddgs_img_{i}.jpg"
             if _download_image(keyword, img_path):
