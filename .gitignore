@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pptx
+*.jpg
+*.pdf
+*.log
+*.aux
+*.tex
+venv/
+.vscode/
