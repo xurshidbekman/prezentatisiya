@@ -97,7 +97,7 @@ def _download_image(keyword: str, path: str) -> bool:
 # ══════════════════════════════════════════════════
 
 def _get_slides_from_gemini(input_data: str, is_image: bool, slide_count: int) -> list:
-    model = genai.GenerativeModel("gemini-3-flash-preview")
+    model = genai.GenerativeModel("gemini-1.5-flash")
 
     prompt = f"""Siz aniq va londa ma'lumot beruvchi o'qituvchisiz.
 Matn yoki rasm asosida aniq va tushunarli PPTX slaydlari tayyorlang (Aynan {slide_count} ta slayd bo'lsin).

@@ -14,7 +14,7 @@ def translate_to_latex(input_data: str, is_image: bool = True) -> str:
     LaTeX kodini qaytaradi.
     """
     # Gemini modelini sozlash
-    model = genai.GenerativeModel('gemini-3-flash-preview')
+    model = genai.GenerativeModel('gemini-1.5-flash')
     
     prompt = """
 Siz professional fizika o'qituvchisi va tarjimonsiz. Ushbu ma'lumotlarda fizika bo'yicha matn, masalalar va formulalar tasvirlangan. 
